@@ -63,7 +63,6 @@ const store = useCurrencyListStore()
   background: var(--vt-c-grey-1);
   color: var(--vt-c-text-2);
   font-weight: 500;
-  font-size: 15px;
 
   &__cross {
     display: inline-block;

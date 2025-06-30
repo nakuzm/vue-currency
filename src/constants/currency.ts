@@ -10,4 +10,4 @@ export const CURRENCY_LIST: Currency[] = [
   { id: 7, name: 'SEK' },
   { id: 8, name: 'USD' },
   { id: 9, name: 'RUB' },
-];
+]

@@ -1,39 +1,41 @@
-
 :root {
-    --vt-c-white: #ffffff;
+  --vt-c-white: #ffffff;
 
-    --vt-c-blue: #00527c;
+  --vt-c-blue: #00527c;
 
-    --vt-c-grey-1: #f2f2f2;
-    --vt-c-grey-2: #e6e6e6;
-    --vt-c-grey-3: #363636;
-    --vt-c-grey-4: #c1c1c3;
+  --vt-c-grey-1: #f2f2f2;
+  --vt-c-grey-2: #e6e6e6;
+  --vt-c-grey-3: #363636;
+  --vt-c-grey-4: #c1c1c3;
 
-    --vt-c-red: #ff0800;
+  --vt-c-red: #ff0800;
 
-    --vt-c-text-1: var(--vt-c-blue);
-    --vt-c-text-2: var(--vt-c-grey-3);
+  --vt-c-text-1: var(--vt-c-blue);
+  --vt-c-text-2: var(--vt-c-grey-3);
 
-    --color-background: var(--vt-c-white);
-    --color-border: var(--vt-c-grey-4);
-    --color-text: var(--vt-c-text-1);
+  --color-background: var(--vt-c-white);
+  --color-border: var(--vt-c-grey-4);
+  --color-text: var(--vt-c-text-1);
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    font-weight: normal;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
 }
 
 body {
-    min-height: 100vh;
-    color: var(--color-text);
-    transition: color 0.5s,
-    background-color 0.5s;
-    line-height: 1.6;
-    font-family: Inter,
+  min-height: 100vh;
+  color: var(--color-text);
+  transition:
+    color 0.5s,
+    background-color 0.5s,
+    border-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -45,8 +47,8 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-    font-size: 15px;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

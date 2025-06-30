@@ -8,5 +8,4 @@ import CurrencyList from '@/components/CurrencyList.vue'
   </main>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
